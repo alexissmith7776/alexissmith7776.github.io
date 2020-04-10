@@ -2,9 +2,9 @@ h1
 {color:#00ccff;}
 
 footer
-{font-size: 10pt;
-text-decoration: none;
+{font-size: 10pt; 
 font-style: italic;}
+a{text-decoration: none}
 a:link
 {color: coral;}
 a:visited
