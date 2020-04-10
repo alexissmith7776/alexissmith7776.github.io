@@ -1,2 +1,17 @@
 h1
 {color:#00ccff;}
+
+footer
+{font-size: 10pt;
+text-decoration: none;
+font-style: italic;}
+a:link
+{color: coral;}
+a:visited
+{color: darkviolet;}
+a:hover
+{color: chartreuse;}
+a:active
+{color: darkmagenta;}
+a:focus
+{color: fuchsia;}
