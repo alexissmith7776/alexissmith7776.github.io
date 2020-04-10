@@ -1,7 +1,10 @@
 * {font-weight:100}
 
+body
+{background-color:aliceblue;}
+
 h1
-{color:#00ccff; font-size:24pt; font-family:inherit;}
+{color:#00ccff; font-size:24pt; font-family:inherit; border-style: dotted; border-width: thin}
 
 h3
 {color:darkorange; font-size: 16pt;}
@@ -18,7 +21,7 @@ blockquote
 {font-family:cursive}
 
 footer
-{font-size: 10pt;}
+{font-size: 10pt; border-top-style: dotted; border-top-color: aquamarine; border-top-width: thin;}
 a:link
 {color:coral;}
 a:visited
