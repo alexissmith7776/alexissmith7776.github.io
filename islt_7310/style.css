@@ -1,13 +1,13 @@
-* {font-weight: 100}
+* {font-weight:100}
 
 h1
-{color:#00ccff; font-size: 24pt; font-family: inherit;}
+{color:#00ccff; font-size:24pt; font-family:inherit;}
 
 h3
-{color: darkorange; font-size: 16pt;}
+{color:darkorange; font-size: 16pt;}
 
 p
-{font-style: normal;}
+{font-style:normal;}
 
 #current {color: darkcyan;}
 
@@ -15,18 +15,18 @@ img {float:right}
 div {clear:right}
 
 blockquote
-{font-family: cursive}
+{font-family:cursive}
 
 footer
 {font-size: 10pt;}
 a:link
-{color: coral;}
+{color:coral;}
 a:visited
-{color: darkviolet;}
+{color:darkviolet;}
 a:hover
-{color: chartreuse;}
+{color:chartreuse;}
 a:active
-{color: darkmagenta;}
+{color:darkmagenta;}
 a:focus
-{color: fuchsia;}
-a{text-decoration:none; font-size: 10pt; font-style: italic;}
+{color:fuchsia;}
+a{text-decoration:none; font-size:10pt; font-style:italic;}
