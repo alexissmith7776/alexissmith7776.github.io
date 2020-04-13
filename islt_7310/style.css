@@ -1,3 +1,15 @@
+/*
+*****************************************************************************
+Title: CSS page
+Use: CSS page for professional website
+Author: Alexis Smith
+School/Term:  Mizzou SISLT / Spring 2020
+Developed: April 12, 2020
+Validated by: https://jigsaw.w3.org/css-validator/
+Date of Validation: 4/12/2020; 8:30pm
+******************************************************************************
+*/
+
 * {font-weight:100}
 
 body
@@ -7,11 +19,13 @@ h1
 {color:#00ccff; font-size:24pt; font-family:inherit; border-style:dotted; border-width:thin}
 
 h3
-{color:darkorange; font-size: 16pt;}
+{color: dodgerblue; font-size: 16pt;}
 
 p
 {font-style:normal;}
 
+body
+{margin-top: 15px; margin-bottom: 15px; margin-left: 15px; margin-right: 15px;}
 #current {color: darkcyan;}
 
 img {float:right}
@@ -21,9 +35,9 @@ blockquote
 {font-family:cursive}
 
 footer
-{font-size: 10pt; border-top-style:dotted; border-top-color:aquamarine; border-top-width:thin;}
+{font-size: 10pt; border-top-style:dotted; border-top-color:aquamarine; border-top-width:thin; padding-bottom: 5px; padding-top: 5px;}
 a:link
-{color:coral;}
+{color: darkorchid;}
 a:visited
 {color:darkviolet;}
 a:hover
