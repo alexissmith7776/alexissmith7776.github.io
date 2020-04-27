@@ -1,0 +1,95 @@
+<!--
+*****************************************************************************
+Title: Contact Webpage
+Use:  Contact Webpage for professional website
+Author: Alexis Smith
+School/Term:  Mizzou SISLT / Spring 2020
+Developed: April 27, 2020
+Validated by: https://validator.w3.org/
+Date of Validation: 4/27/2020; 2:21pm
+******************************************************************************
+-->
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="nav.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+               <meta charset="utf-8">
+               <title>Page Title</title>
+</head>
+    
+<body>
+    <header>
+<h1 id="heading">Contact Information</h1>    
+    </header>
+<!--
+*****************************************************************************
+Nav Bar
+******************************************************************************
+--> 
+    <nav>
+<ul>
+<li><a href="index.html"> Home</a></li>
+<li><a href="reflection.html">Philosophy and Reflection</a> </li>
+<li><a href="resume.html">Resume</a></li>
+<li><a href="accomplishments.html">Accomplishments</a></li>
+<li><a href="#">Contact</a> </li>
+<li><a href="#"> Experience</a> 
+    <ul>  
+    <li class="points"><a href="#">Project 1</a> </li>
+    <li class="points"><a href="#"> Project 2</a> </li>
+    <li class="points"><a href="#"> Project 3</a> </li>
+    </ul>
+    </li>
+    </ul>
+    </nav>
+    <!--
+*****************************************************************************
+Main Content
+******************************************************************************
+--> 
+<main>
+<h3>Click the social media buttons to reach me!</h3>
+<a href="https://www.facebook.com/alexis.smith.98434?fref=hovercard&hc_location=chat" class="fa fa-facebook"></a>
+<a href="https://twitter.com/Teachthattech" class="fa fa-twitter"></a>
+<a href="mailto:alexis.smith.72023@gmail.com" class="fa fa-google"></a>
+<div>
+<h3>Or fill out the following form and I'll get back to you! 
+    </h3>  
+<div class="contactform">
+  <form action="contact.php" method="post">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." style="height:50px">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.." style="height:50px">
+
+    <label for="email">Email Address</label>
+    <input type="text" id="email" name="email" placeholder="Your email..." style="height:50px">
+      
+ <label for="subject">Subject</label>
+    <input type="text" id="subject" name="subject" placeholder="What's on your mind?" style="height:50px">
+
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+    </div>
+    
+    </main>   
+    
+<!--
+*****************************************************************************
+Contact Footer
+******************************************************************************
+-->   
+<footer> &copy;2020, Alexis Smith, All Rights Reserved
+    <a href="mailto:alexis.smith.72023@gmail.com">alexis.smith.72023@gmail.com</a>
+       </footer>
+    
+</body>
+</html>
