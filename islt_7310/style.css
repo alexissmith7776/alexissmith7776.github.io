@@ -18,6 +18,11 @@ Following style changes are for index & default webpages
 ******************************************************************************
 */
 
+@font-face {
+font-family:Raleway;
+src:url("Raleway-LightItalic.tff");
+}
+    
 * {font-weight:100}
 
 body
@@ -27,7 +32,7 @@ body
 {color:blue; font-size:24pt;}
 
 h3
-{color: dodgerblue; font-size: 16pt;}
+{font-family:Raleway, serif; color:  dodgerblue; font-size: 16pt;}
 
 p
 {font-style:normal;}
