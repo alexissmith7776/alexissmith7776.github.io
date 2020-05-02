@@ -19,10 +19,9 @@ Following style changes are for index & default webpages
 */
 
 @font-face {
-font-family:Raleway;
-src:url("Raleway-LightItalic.tff");
-}
     
+}
+
 * {font-weight:100}
 
 body
@@ -32,7 +31,7 @@ body
 {color:blue; font-size:24pt;}
 
 h3
-{font-family:Raleway, serif; color:  dodgerblue; font-size: 16pt;}
+{color: dodgerblue; font-size: 16pt;}
 
 p
 {font-style:normal;}
@@ -61,6 +60,12 @@ a:focus
 {color:fuchsia;}
 a{text-decoration:none; font-size:10pt; font-style:italic;}
 
+
+/*
+***************************************************************************************
+Mediaquery for iphone / tablets
+***************************************************************************************
+*/
 @media only screen and (max-width: 9640px) {
     header {position: relative; 
         height: 40px; 
@@ -134,3 +139,26 @@ Contact Page Social Media Logo styling
   color: white;
 }
 
+/*
+*****************************************************************************
+Mediaquery for printing
+******************************************************************************
+*/
+@media print {
+    * { background: transparent !important;
+        color: black !important;
+        box-shadow: none !important;
+        text-shadow:none !important;
+        font: serif !important;
+        border-style: none !important;
+    } 
+    
+    ul {list-style:square;}
+
+    nav {display: none;}
+    img {max-width: 50%; max-height: 50%;}
+    blockquote {float: left;
+        
+    }
+    
+}
