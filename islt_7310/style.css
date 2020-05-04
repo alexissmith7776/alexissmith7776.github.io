@@ -10,6 +10,7 @@ Date of Validation: 4/12/2020; 8:30pm
 Re-Validated: 4/19/2020; 4:37pm
 Re-Validated: 4/27/2020, 2:25pm
 Re-Validated: 5/2/2020, 8:44am
+Re-Validated: 5/3/2020, 7:57pm
 ******************************************************************************
 */
 
@@ -28,51 +29,63 @@ body
 {color:blue; font-size:24pt;}
 
 h3
-{color: dodgerblue; font-size: 16pt;}
+{color: darkviolet; font-size: 16pt;}
 
 p
-{font-style:normal;}
+{font-style:normal; font-size: 13pt;}
 
 body
 {margin-top: 15px; margin-bottom: 15px; margin-left: 15px; margin-right: 15px;}
-#current {color: darkcyan;}
 
 img {float:right}
 div {clear:right}
 
 blockquote
-{font-family:cursive}
+{font-family:cursive; font-size:13pt;}
 
 /*
 ***************************************************************************************
 Footer background image 
 ***************************************************************************************
 */
+
 .box {
 background-image: url(images/footerbackground.jpg);
-background-size: cover;
-width: auto;
+background-size:cover;
+width:100%;
 height:auto;
-max-height: 24px;
-    padding: 0px;
-    margin: 100px auto;
-    position:absolute;
+    padding: 10px;
+    margin-bottom:auto;
+    position:fixed;
     bottom: 0;
+    text-align: center;
+    
 }
-
+/*
+***************************************************************************************
+Footer styling code
+***************************************************************************************
+*/
 footer
-{font-size: 10pt; border-top-width:thin; padding-bottom: 5px; padding-top: 5px; bottom:auto;}
-a:link
-{color: darkorchid;}
+{font-size: 14pt; border-top-width:thin; padding-bottom: 5px; padding-top: 5px; bottom:auto; color: white;}
+a:link 
+{font-size:14pt; color: black;}
 a:visited
-{color:darkviolet;}
+{color:black;}
 a:hover
-{color:chartreuse;}
+{color:yellow;}
 a:active
-{color:darkmagenta;}
+{color:coral;}
 a:focus
 {color:fuchsia;}
 a{text-decoration:none; font-size:10pt; font-style:italic;}
+
+#email {color: white;}
+a#email:hover {color:yellow;}
+
+.material-icons {transition: transform .2s;}
+.material-icons:hover {
+transform: scale(2.0);}
 
 
 /*
@@ -80,7 +93,7 @@ a{text-decoration:none; font-size:10pt; font-style:italic;}
 Mediaquery for iphone / tablets
 ***************************************************************************************
 */
-@media only screen and (max-width: 9640px) {
+@media only screen and (max-width: 600px) {
     header {position: relative; 
         height: 40px; 
         display: inline-block; 
@@ -106,7 +119,7 @@ box-sizing: border-box;
 Fluid layout styling
 ***************************************************************************************
 */
-#heading {border: 1px solid aquamarine;}
+
 nav {border-bottom: 1px solid purple;}
 main {float: left; width: 100%;}
 img {float:right;}
