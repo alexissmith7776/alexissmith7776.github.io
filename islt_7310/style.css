@@ -53,11 +53,10 @@ Footer background image
 background-image: url(images/footerbackground.jpg);
 background-size:cover;
 width:100%;
-height:auto;
+height:50px;
     padding: 10px;
-    margin-bottom:auto;
-    position:fixed;
     bottom: 0;
+    position:absolute;
     text-align: center;
     
 }
@@ -87,19 +86,18 @@ a#email:hover {color:yellow;}
 .material-icons:hover {
 transform: scale(2.0);}
 
-
 /*
-***************************************************************************************
-Mediaquery for iphone / tablets
-***************************************************************************************
+*****************************************************************************
+Table Styling
+******************************************************************************
 */
-@media only screen and (max-width: 600px) {
-    header {position: relative; 
-        height: 40px; 
-        display: inline-block; 
-        width: 100%;}
-    img { max-width: 50%;}
-}
+#headrow {background-color:paleturquoise;}
+table th, td {font-size: 13pt; text-align: center;}
+table {border: 2px solid black; background-color: transparent;}
+table th {border-bottom: 1px solid black;}
+table td {border-right: 1px solid black; border-bottom: 1px solid black;}
+table tr:nth-child(even) {background-color:lavenderblush;}
+table tr:nth-child(odd) {background-color: snow;}
 
 /*
 ***************************************************************************************
@@ -181,11 +179,39 @@ Mediaquery for printing
     } 
     
     ul {list-style:square;}
-
+    .contactform {display: none;}
     nav {display: none;}
+    table th, td {border: 1px solid black !important;}
     img {max-width: 50%; max-height: 50%;}
     iframe {display: none;}
     .material-icons {display: none;}
     }
+ 
+/*
+***************************************************************************************
+Mediaquery for iphone / tablets
+***************************************************************************************
+*/
+@media only screen and (max-width: 600px) {
+    body {width:100%; margin:0; padding:0;}
+    header {position: relative; 
+        height: 40px; 
+        display: inline-block; 
+        width: 100%;}
+    img {max-width: 50%;}
+    main {height:100%; width:90%; margin: 20px; min-height:100%;}
+    table th, td {width:200%;}
     
-
+ .box {
+        width:100%;
+        height:55px;
+        padding: 0;
+        bottom:0;
+        position: absolute;}
+    
+    .contactform {
+height: 100%;
+width:45%;
+float:left;
+    }
+}

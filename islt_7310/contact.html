@@ -53,6 +53,7 @@ Nav Bar
 ******************************************************************************
 --> 
 <nav>
+        <label id="hamburger">&#9776;</label> 
 <ul>
 <li><a class="navbar" href="index.html"> Home</a></li>
 <li><a class="navbar" href="reflection.html">Philosophy and Reflection</a> </li>
@@ -67,40 +68,46 @@ Nav Bar
     </ul>
     </li>
     </ul>
-    </nav>
-    <!--
+    </nav>   
+<!--
 *****************************************************************************
-Main Content
+Contact form
 ******************************************************************************
 --> 
 <main>
-<h3>Click the social media buttons to reach me!</h3>
-<a href="https://www.facebook.com/alexis.smith.98434?fref=hovercard&hc_location=chat" class="fa fa-facebook"></a>
-<a href="https://twitter.com/Teachthattech" class="fa fa-twitter"></a>
-<a href="mailto:alexis.smith.72023@gmail.com" class="fa fa-google"></a>
 <div>
-<h3>Or fill out the following form and I'll get back to you! 
-    </h3>  
+<h3>Fill out the form below and I'll get back to you as soon as possible! 
+    </h3> 
 <div class="contactform">
-  <form action="submission.html" method="post">
+  <form action="mailto:alexis.smith.72023@gmail.com?Subject=Professional%20Website%20Contact" method="post">
 
     <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name.." style="height:50px">
+    <input type="text" id="fname" name="firstname" required placeholder="Your name.." style="height:50px">
 
     <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name.." style="height:50px">
+    <input type="text" id="lname" name="lastname" required placeholder="Your last name.." style="height:50px">
 
     <label for="address">Email Address</label>
-    <input type="text" id="address" name="email" placeholder="Your email..." style="height:50px">
+    <input type="text" id="address" name="email" required placeholder="Your email..." style="height:50px">
       
  <label for="subject">Subject</label>
-    <input type="text" id="subject" name="subject" placeholder="What's on your mind?" style="height:50px">
+    <input type="text" id="subject" name="subject" required placeholder="What's on your mind?" style="height:50px">
 
 
     <input type="submit" value="Submit">
 
   </form>
 </div>
+    <!--
+*****************************************************************************
+Social Media Tags
+******************************************************************************
+--> 
+
+<h3>Follow me on social media:</h3>
+<a href="https://www.facebook.com/alexis.smith.98434?fref=hovercard&hc_location=chat" class="fa fa-facebook"></a>
+<a href="https://twitter.com/Teachthattech" class="fa fa-twitter"></a>
+<a href="mailto:alexis.smith.72023@gmail.com" class="fa fa-google"></a>
     </div>
     
     </main>   
