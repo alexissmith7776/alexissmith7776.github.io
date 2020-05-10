@@ -66,7 +66,7 @@ Footer styling code
 ***************************************************************************************
 */
 footer
-{font-size: 14pt; border-top-width:thin; padding-bottom: 5px; padding-top: 5px; bottom:auto; color: white;}
+{font-size: 14pt; border-top-width:thin; padding-bottom: 5px; padding-top: 5px; bottom:auto; color: orange;}
 a:link 
 {font-size:14pt; color: black;}
 a:visited
@@ -79,7 +79,7 @@ a:focus
 {color:fuchsia;}
 a{text-decoration:none; font-size:10pt; font-style:italic;}
 
-#email {color: white;}
+#email {color: orange;}
 a#email:hover {color:yellow;}
 
 .material-icons {transition: transform .2s;}
