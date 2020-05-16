@@ -24,7 +24,7 @@ Following style changes are for index & default webpages
 * {font-weight:100}
 
 body
-{background-color:aliceblue;}
+{background-color:lavender;}
 
 #heading
 {color:blue; font-size:24pt;}
@@ -43,26 +43,44 @@ div {clear:right}
 
 blockquote
 {font-family:cursive; font-size:13pt;}
+
 /*
-*****************************************************************************
-Footer styling
-******************************************************************************
+***************************************************************************************
+Footer background image 
+***************************************************************************************
 */
 
+.box {
+background-image: url(images/footerbackground.jpg);
+background-size:cover;
+width:100%;
+height:50px;
+    padding: 10px;
+    bottom: 0;
+    position:absolute;
+    text-align: center;}
+
+/*
+***************************************************************************************
+Footer styling code
+***************************************************************************************
+*/
+footer
+{font-size: 14pt; border-top-width:thin; padding-bottom: 5px; padding-top: 5px; bottom:auto; color: white;}
 a:link 
-{font-size:12pt; color: black;}
+{font-size:14pt; color: black;}
 a:visited
 {color:black;}
 a:hover
-{color:yellow;}
+{color:darkorange;}
 a:active
 {color:coral;}
 a:focus
 {color:fuchsia;}
-a{text-decoration:none; font-size:14pt; font-style:italic;}
+a{text-decoration:none; font-size:10pt; font-style:italic;}
 
 #email {color: black; font-weight: 700;}
-a#email:hover {color:darkmagenta;}
+a#email:hover {color:darkcyan;}
 
 .material-icons {transition: transform .2s;}
 .material-icons:hover {
@@ -147,6 +165,27 @@ Contact Page Social Media Logo styling
 }
 
 /*
+***************************************************************************************
+Mediaquery for iphone / tablets
+***************************************************************************************
+*/
+@media only screen and (max-width: 600px) {
+    body {width:100%; margin:0; padding:0;}
+    header {position: relative; 
+        height: 40px; 
+        display: inline-block; 
+        width: 100%;}
+    img {max-width: 50%;}
+    main {height:100%; width:90%; margin: 20px; min-height:100%;}
+    table th, td {width:200%;}
+ .box {
+        width:100%;
+        height:55px;
+        padding: 0;
+        bottom:0;
+        }
+}
+/* 
 *****************************************************************************
 Mediaquery for printing
 ******************************************************************************
@@ -161,7 +200,7 @@ Mediaquery for printing
     } 
     
     ul {list-style:square;}
-    .contactform {display: none;}
+
     nav {display: none;}
     table th, td {border: 1px solid black !important;}
     img {max-width: 50%; max-height: 50%;}
@@ -169,27 +208,3 @@ Mediaquery for printing
     .material-icons {display: none;}
     }
  
-/*
-***************************************************************************************
-Mediaquery for iphone / tablets
-***************************************************************************************
-*/
-@media only screen and (max-width: 600px) {
-    body {width:100%; margin:0; padding:0;}
-    header {position: relative; 
-        height: 40px; 
-        display: inline-block; 
-        width: 100%;}
-    img {max-width: 50%;}
-    main {height:100%; width:90%; margin: 20px; min-height:100%;}
-    table th, td {width:200%;}
-
-
-    
-.contactform {
-height: 100%;
-width:45%;
-float:left;
-    }
-    #socialmedialogos { float: right;}
-}
