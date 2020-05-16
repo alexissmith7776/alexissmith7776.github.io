@@ -67,7 +67,7 @@ Footer styling code
 ***************************************************************************************
 */
 footer
-{font-size: 14pt; border-top-width:thin; padding-bottom: 5px; padding-top: 5px; bottom:auto; color: white;}
+{font-size: 10pt; border-top-width:thin; padding-bottom: 5px; padding-top: 5px; bottom:auto; color: white;}
 a:link 
 {font-size:14pt; color: black;}
 a:visited
